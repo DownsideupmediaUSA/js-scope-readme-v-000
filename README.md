@@ -90,7 +90,7 @@ The function call `myFunction();` actually does work perfectly, even `console.lo
 
 However, anything defined in a function is not accessible outside of it, which is why the `console.log(y);` does not work. `y` was only defined inside the `myFunction` function, making it inaccessible anywhere else.
 
-And again `console.log(x);` works because were printing it out in the scope in which it was defined.
+And again `console.log(x);` works because we're printing it out in the scope in which it was defined.
 
 ## The Key To Scope
 
